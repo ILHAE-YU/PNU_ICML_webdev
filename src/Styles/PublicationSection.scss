@@ -1,0 +1,24 @@
+#publication-section {
+    margin-top:10%;
+    padding-bottom:2%;
+    padding-left:15%;
+    padding-right:15%;
+
+
+    margin: 0 auto;
+    padding-left: calc((100vw - 1200px) / 2);
+    padding-right: calc((100vw - 1200px) / 2);
+    max-width: 1200px;
+
+    .scroll-area {
+        height:70vh;
+        .card {
+            .title{
+                font-size:24px;
+                font-weight: 600;
+            }
+        }
+    }
+
+
+}

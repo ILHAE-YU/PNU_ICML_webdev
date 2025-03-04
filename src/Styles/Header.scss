@@ -1,0 +1,109 @@
+header {
+    position: fixed;
+    z-index: 99;
+    padding: 15px;
+    background-color: #1864AB;
+    
+    .banner {
+        margin-left:2%;
+        font-size: 2vmin;
+        font-weight: 600;
+        
+        a {
+            color: white;
+        }
+        a:hover {
+            color: #74C0FC;
+            text-decoration: none;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        align-items: center;
+        margin-right:2%;
+
+        .navbar-item {
+            font-size:1.5vmin;
+            cursor: pointer;
+            font-weight: 500;
+            
+                a {
+                    color: white;
+                    transition: all 0.1s ease;
+                }
+            
+                a:hover {
+                    color: #74C0FC;
+                    text-decoration: none;
+                }
+        }
+    }
+
+    .content-desktop {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+    .content-mobile {
+        .burger-button {
+            float: right;
+        }
+    }
+
+
+    .content-desktop {
+        display: flex;
+    }
+    top: 0px;
+    left: 0px;
+    right: 0px;
+        
+}
+    /* Responsive header */
+    // @media only screen and (min-width: 769px) {
+    //     .content-desktop {
+    //         display: flex;
+    //     }
+
+    //     .content-mobile {
+    //         display: none;
+    //     }
+
+    //     top: 0px;
+    //     left: 0px;
+    //     right: 0px;
+    // }
+
+    // @media only screen and (max-width: 768px) {
+    //     .content-desktop {
+    //         display: none;
+    //     }
+
+    //     .content-mobile {
+    //         display: block;
+    //     }
+
+    //     top: 0px;
+    //     left: 0px;
+    //     right: 0px;
+    // }
+// }
+
+.menu {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between !important;
+    gap: 30px;
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .menu-item {}
+    }
+}

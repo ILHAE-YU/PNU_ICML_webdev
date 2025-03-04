@@ -1,0 +1,90 @@
+@import './Styles/Header.scss';
+@import './Styles/Footer.scss';
+@import './Styles/Content.scss';
+@import './Styles/Publication.scss';
+@import './Styles/People.scss';
+@import './Styles/Contact.scss';
+@import './Styles/Snow.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(248, 246, 246);
+}
+
+section {
+  padding: 4rem 0rem;
+  padding-right: 60px;
+  padding-left: 60px;
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .mantine-Container-root {
+        padding: 0px;
+    }
+  }
+}
+
+
+
+.footer {
+  background: #975a5a;
+}
+.header {
+  background: #975a5a;
+}
+#contact-section {
+  background-color: #ffe2e2;
+}
+#contact-send-button{
+  background: #8f1f1f;
+}
+#people-section {
+  background-color: #ffe2e2;
+}
+#publication-section {
+  background-color: #ffe2e2;
+}
+
+
+#research-section {
+  background-color: #ffe2e2;
+}
+#recruit-section {
+  background-color: #b94343;
+}
+#news-section {
+  background-color: #ec9b9b;
+}
+
+.line-news-dt {
+  background-color: #8f1f1f;
+}
+
+#publication_journal_badge {
+  background-color: #ff7373;
+  color: #FFFFFF;;
+}
+
+#publication_conference_badge {
+  background-color: #8f1f1f;
+  color: #FFFFFF;
+}
+
+#research_badge_journal {
+  background-color: #b94646;
+  color: #FFFFFF;
+
+}
+#research_badge_conference {
+  background-color: #9c5627;
+  color: #FFFFFF;
+  
+}
+#research_badge_patent {
+  background-color: #9c5627;
+  color: #FFFFFF;
+  
+}

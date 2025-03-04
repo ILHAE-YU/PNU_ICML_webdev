@@ -1,0 +1,32 @@
+
+.snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; // 클릭 방지
+    z-index: 1000; // 다른 요소 위에 표시
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: -10px; // 화면 위에서 시작
+    background-color: white;
+    border-radius: 50%; // 둥근 눈송이
+    animation: fall linear infinite; // 애니메이션 이름과 속성
+    opacity: 0.8;
+  }
+  
+  // 애니메이션 정의
+  @keyframes fall {
+    0% {
+      transform: translateY(-10px) translateX(0); // 초기 상태
+    }
+    50% {
+      transform: translateY(50vh) translateX(30px); // 중간에 약간 오른쪽으로 이동
+    }
+    100% {
+      transform: translateY(calc(100vh + 10px)) translateX(-30px); // 끝에서 왼쪽으로 이동
+    }
+  }

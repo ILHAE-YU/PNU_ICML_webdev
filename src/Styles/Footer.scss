@@ -1,0 +1,10 @@
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left:15%;
+    padding-right:15%;
+
+    @media only screen and (max-width: 768px) {
+        text-align: center;
+    }
+}

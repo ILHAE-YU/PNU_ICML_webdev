@@ -1,0 +1,70 @@
+#about {
+    min-height: 100vh;
+    height: 100vh;
+    padding: 0px;
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y:top;
+
+    .buttons {
+        position: absolute;
+        top:95%;
+        left:50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    .about-bg-container {
+        width:100%;
+        height:100%;
+        backdrop-filter: blur(10px);
+
+    }
+
+    .about-content {
+        padding: 0px;
+        width: 60%;
+        text-align: left;
+        position: absolute;
+        top: 55%;
+        transform: translate(5%, -50%);
+
+        .title-top {
+            font-size: 3vmin;
+            color: white;
+            font-weight: 900;
+
+
+        }
+        .title {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 5.5vmin;
+            letter-spacing: 2px;
+            font-weight: 900;
+            margin-top: 0px;
+        }
+
+        .text {
+            font-size: 2vmin;
+            color: white;
+            font-weight: 600;
+        }
+        
+    }
+
+
+
+    @media only screen and (max-width: 425px) {
+        .mantine-Container-root {
+            padding: 0px;
+        }
+    }
+}

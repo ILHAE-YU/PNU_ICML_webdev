@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="yu-ilhae" />
+    <meta name="description" content="ICML Lab at PNU" /> <!-- 설명 설정 -->
+    <title>ICML Lab at PNU</title>
+
+    <!-- OG Properties -->
+    <meta property="og:title" content="ICML Lab at PNU" />
+    <meta property="og:description" content="ICML Lab at PNU" /> <!-- OG 설명 설정 -->
+    <meta property="og:type" content="website" />
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          var currentURL = window.location.href;
+          var ogURLMetaTag = document.createElement('meta');
+          ogURLMetaTag.setAttribute('property', 'og:url');
+          ogURLMetaTag.setAttribute('content', currentURL);
+          document.head.appendChild(ogURLMetaTag);
+      });
+    </script>
+
+    <meta property="og:image" content="#" /> <!-- OG 이미지 설정 -->
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/favicon.png" /> <!-- 아이콘 설정-->
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

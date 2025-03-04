@@ -1,0 +1,47 @@
+# ========== setup ==========
+
+# 개발환경 설치 순서
+# 1. Node Version Manager (nvm) 설치
+# 2. Node.js 17.9.1 64-bit 설치
+# 3. Node Package Manager (npm) 설치
+
+# 'node_modules' 폴더에는 web 개발에 필요한 library들이 설치 됨.
+# library 목록은 package.json / package-lock.json에 표시 됨.
+
+# 현재 웹 사이트는 typescript / react로 개발 됨.
+
+# 개발 셋업은 npm start 명령어를 통해, npm이 개발에 필요한 환경을 구축하고, react 개발을 위한 프로젝트 셋업을 준비해줌.
+# 위 과정에서 node_modules에 필요한 library가 제대로 설치되어 있지 않으면 재설치함.
+# 재설치 과정에서 dependency가 많이 요구됨
+# nvm 1.1.12 / npm 8.11.0 / node.js 17.9.1 64-bit 사용 권장
+
+# ========== quick dev & release ==========
+
+# 배포를 위한 configuration 작성이 다 되어있는 상태라,
+# npm start를 통해 개발하고
+# npm run build를 통해 배포하면 됨.
+
+# npm run build를 수행하면 'build' 폴더 생성.
+# 해당 폴더 내 모든 파일을 그대로 github push & commit 하면 됨.
+
+# ========== post / contents update ==========
+
+# website 내에 post / contents는 json 파일로 관리 됨.
+# 'public'
+#   ├'home'
+#   ├'people'
+#   ├'publication'
+# 내에 기존 작성된 template 활용하여 작성 후, github push & commit 수행
+
+# ========== To Do List ==========
+
+# - periodic work
+# 1. Recruit 정보 학기에 맞게 수정 (정시 모집 중 / 특차 모집 중 등.. 날짜에 맞게 수정)
+# 2. News / Publication update (연구실 내 행사 혹은 컨퍼런스 저널 출판 내용 업데이트)
+# 3. people 신입생, 졸업생 업데이트 및 정보 수정
+
+# - long term work
+# 1. 'src'-'component'에 hard coding된 content를 .json 형식으로 관리할 수 있도록 수정 필요
+# 2. publication 검색화면에서 list 정령 순서 날짜순으로 재구성
+# 3. publication 에서 Conference tag도 Link 달기
+# 4. web site theme (전체적인 색감 등)이 hard coding되어 있는데, 관리하기 편하게 수정 필요
