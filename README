@@ -5,14 +5,15 @@
 # 2. Node.js 17.9.1 64-bit 설치
 # 3. Node Package Manager (npm) 설치
 
+# 현재 웹 사이트는 typescript / react로 개발 됨.
+
 # 'node_modules' 폴더에는 web 개발에 필요한 library들이 설치 됨.
 # library 목록은 package.json / package-lock.json에 표시 됨.
 
-# 현재 웹 사이트는 typescript / react로 개발 됨.
-
 # 개발 셋업은 npm start 명령어를 통해, npm이 개발에 필요한 환경을 구축하고, react 개발을 위한 프로젝트 셋업을 준비해줌.
-# 위 과정에서 node_modules에 필요한 library가 제대로 설치되어 있지 않으면 재설치함.
-# 재설치 과정에서 dependency가 많이 요구됨
+# 위 과정에서 node_modules에 필요한 library가 제대로 설치되어 있지 않으면 설치 필요 (npm install).
+# 재설치 과정에서 dependency랑 version conflict가 엄청 많이 발생
+# (vulnerabilities 뜨는건 무시시)
 # nvm 1.1.12 / npm 8.11.0 / node.js 17.9.1 64-bit 사용 권장
 
 # ========== quick dev & release ==========
@@ -45,3 +46,8 @@
 # 2. publication 검색화면에서 list 정령 순서 날짜순으로 재구성
 # 3. publication 에서 Conference tag도 Link 달기
 # 4. web site theme (전체적인 색감 등)이 hard coding되어 있는데, 관리하기 편하게 수정 필요
+# 5. Mobile View 구현 필요 ( Media Quary / Responsive Design ) - 
+#    폰트 등 다 적용하려면 상당히 귀찮을 듯...
+
+# ========== Tips ==========
+# - Mantine이라는 web/app UI 개발 package 기반이라, 다른 UI package 추가 사용 비추천
