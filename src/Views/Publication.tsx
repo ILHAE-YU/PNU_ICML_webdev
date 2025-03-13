@@ -5,7 +5,7 @@ import Snow from '../Components/Snow'
 const Publication: React.FC = () => {
   return (
     <div>
-            <Snow/>
+            {/* <Snow/> */}
       <PublicationSection/>
     </div>
   );

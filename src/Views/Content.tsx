@@ -9,7 +9,7 @@ const Content = () => {
     return (
         <>
 
-            <Snow/>
+            {/* <Snow/> */}
             <About />
             <ResearchSection/>
             <RecruitSection/>

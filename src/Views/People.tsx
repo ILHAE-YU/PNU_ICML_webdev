@@ -5,7 +5,7 @@ import Snow from '../Components/Snow'
 const People: React.FC = () => {
   return (
     <div>
-      <Snow/>
+      {/* <Snow/> */}
       <PeopleSection/>
     </div>
   );
