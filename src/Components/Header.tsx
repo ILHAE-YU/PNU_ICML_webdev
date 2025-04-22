@@ -9,7 +9,7 @@ const Header = () => {
         <header className="header">
             <div className="content-desktop">
                 <div className='banner'>
-                    <HashLink smooth to="/">ICML</HashLink>
+                    <HashLink smooth to="/">IC&ML</HashLink>
                 </div>
 
                 <div className="navbar">

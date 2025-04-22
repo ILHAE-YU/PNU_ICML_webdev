@@ -94,26 +94,27 @@ const ResearchSection = () => {
             )
         )
 
-        const TimeLineComponent = ProjectData.project.map((project) =>
-            project.projectDetail.map((detail) => (
-                <Timeline.Item 
-                    title={
-                        <Group style={{position:"relative", top:"-5px", flexGrow:1, width:"100%"}} spacing="xs">
-                            
-                            <Text style={{width:"100%"}}><Badge id={`research_badge_${detail.type}`} mr='1%'>{detail.type}</Badge>{detail.title}</Text>
-                        </Group>}
-                    style={{fontSize:"120%"}}
-                    mt="2%"
-                >
-                    <Text size="lg" c="grey" style={{position:"relative", top:"-10px"}}>
-                    {detail.detail}{" "}
-                    {detail.Link && detail.Link.length > 0 && detail.Link.filter(link => link.href).map((link) => (
-                        <a href={link.href} target="_blank" key={link.href}>[{link.text}]</a>
-                    ))}
-                    </Text>
-                </Timeline.Item>
-            ))
-          );
+
+    const TimeLineComponent = ProjectData.project.map((project) =>
+        project.projectDetail.map((detail) => (
+            <Timeline.Item 
+                title={
+                    <Group style={{position:"relative", top:"-5px", flexGrow:1, width:"100%"}} spacing="xs">
+                        
+                        <Text style={{width:"100%"}}><Badge id={`research_badge_${detail.type}`} mr='1%'>{detail.type}</Badge>{detail.title}</Text>
+                    </Group>}
+                style={{fontSize:"120%"}}
+                mt="2%"
+            >
+                <Text size="lg" c="grey" style={{position:"relative", top:"-10px"}}>
+                {detail.detail}{" "}
+                {detail.Link && detail.Link.length > 0 && detail.Link.filter(link => link.href).map((link) => (
+                    <a href={link.href} target="_blank" key={link.href}>[{link.text}]</a>
+                ))}
+                </Text>
+            </Timeline.Item>
+        ))
+        );
 
     return (
         <section id="research-section">
@@ -175,6 +176,7 @@ const ResearchSection = () => {
                 <Text size="xl" align="justify">
                     {ProjectData.project[scrollProgress].projectDescription}
                 </Text>
+
                 <Timeline active={190000} id='research_timeline' color='dark'>
                     {TimeLineComponent[scrollProgress]}
                 </Timeline>

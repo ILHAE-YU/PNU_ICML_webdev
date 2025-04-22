@@ -94,7 +94,7 @@ const RecruitSection = () => {
                     <Text size="lg" ml="5%">1. 이력서 또는 자기소개서(영문 또는 한글)</Text>
                     <Text size="lg" ml="5%">2. 성적증명서</Text>
                     <Text size="lg" ml="5%" mb="1%">3. 자유 형식의 자기 PR</Text>
-                    <Text size="xl" ml="3%"> 2025학년도 정시 신입생 모집중 <a href="https://go.pusan.ac.kr/">(바로가기)</a></Text>
+                    {/* <Text size="xl" ml="3%"> 2025학년도 정시 신입생 모집중 <a href="https://go.pusan.ac.kr/">(바로가기)</a></Text> */}
                         
                     <Title order={3} pt="0" style={{marginTop:"2%"}}>
                         FAQ

@@ -26,7 +26,7 @@ const About = () => {
         return null; // or loading indicator
     }
     return (
-        <section id="about" style={{backgroundImage:'url("home/about/background_winter.jpg")'}}>
+        <section id="about" style={{backgroundImage:'url("home/about/background.jpg")'}}>
             <div className="about-bg-container">
             </div>
             <div className="about-content">

@@ -6,6 +6,12 @@
 @import './Styles/Contact.scss';
 @import './Styles/Snow.scss';
 
+
+
+/*
+*/
+
+
 body {
   margin: 0;
   padding: 0;
@@ -28,63 +34,125 @@ section {
 }
 
 
+// .footer {
+//   background: #975a5a;
+// }
+// .header {
+//   background: #975a5a;
+// }
+// #contact-section {
+//   background-color: #ffe2e2;
+// }
+// #contact-send-button{
+//   background: #8f1f1f;
+// }
+// #people-section {
+//   background-color: #ffe2e2;
+// }
+// #publication-section {
+//   background-color: #ffe2e2;
+// }
+
+
+// #research-section {
+//   background-color: #ffe2e2;
+// }
+// #recruit-section {
+//   background-color: #b94343;
+// }
+// #news-section {
+//   background-color: #ec9b9b;
+// }
+
+// .line-news-dt {
+//   background-color: #8f1f1f;
+// }
+
+// #publication_journal_badge {
+//   background-color: #ff7373;
+//   color: #FFFFFF;;
+// }
+
+// #publication_conference_badge {
+//   background-color: #8f1f1f;
+//   color: #FFFFFF;
+// }
+
+// #research_badge_journal {
+//   background-color: #b94646;
+//   color: #FFFFFF;
+
+// }
+// #research_badge_conference {
+//   background-color: #9c5627;
+//   color: #FFFFFF;
+  
+// }
+// #research_badge_patent {
+//   background-color: #9c5627;
+//   color: #FFFFFF;
+  
+// }
+
 
 .footer {
-  background: #975a5a;
+  background: #5a6f97;
 }
 .header {
-  background: #975a5a;
+  background: #5a6f97;
 }
 #contact-section {
-  background-color: #ffe2e2;
+  background-color: #9babc9;
 }
 #contact-send-button{
-  background: #8f1f1f;
+  background: #436fc0;
 }
 #people-section {
-  background-color: #ffe2e2;
+  background-color: #9babc9;
 }
 #publication-section {
-  background-color: #ffe2e2;
+  background-color: #9babc9;
+}
+
+#publication_journal_badge {
+  background-color: #2c4778;
+  color: #FFFFFF;;
+}
+
+
+#publication_conference_badge {
+  background-color: #436fc0;
+  color: #FFFFFF;
 }
 
 
 #research-section {
-  background-color: #ffe2e2;
+  background-color: #9babc9;
 }
 #recruit-section {
-  background-color: #b94343;
+  background-color: #425e91;
 }
 #news-section {
-  background-color: #ec9b9b;
+  background-color: #d3dcef;
 }
 
 .line-news-dt {
-  background-color: #8f1f1f;
+  background-color: #436fc0;
 }
 
-#publication_journal_badge {
-  background-color: #ff7373;
-  color: #FFFFFF;;
-}
-
-#publication_conference_badge {
-  background-color: #8f1f1f;
-  color: #FFFFFF;
-}
 
 #research_badge_journal {
-  background-color: #b94646;
+  background-color: #2c4778;
   color: #FFFFFF;
 
 }
 #research_badge_conference {
-  background-color: #9c5627;
+  background-color: #436fc0;
   color: #FFFFFF;
   
 }
 #research_badge_patent {
-  background-color: #9c5627;
+  background-color: #144eba;
   color: #FFFFFF;
   
 }
