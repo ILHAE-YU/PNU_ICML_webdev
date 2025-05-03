@@ -26,11 +26,11 @@ function PopupWatcher() {
       onClose={() => setShowPopup(false)} 
       withCloseButton={false}
       centered 
-      size="xl"
+      size="90%"
     >
       <div>
       <img
-        src="/modal/test.jpg"
+        src="/modal/recruit.png"
         alt="팝업 이미지"
         style={{
           // height: "30%",
