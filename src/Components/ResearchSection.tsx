@@ -88,7 +88,7 @@ const ResearchSection = () => {
             (project) => (
                 <Carousel.Slide key={project.projectImagePath}>
                     <AspectRatio ratio={4/3} style={{borderRadius:"3%", boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.1)', border: '2px solid #ccc', backgroundColor:"white"}}>
-                        <Image src={project.projectImagePath} />
+                        <img src={project.projectImagePath} style={{borderRadius :"2%", marginBottom:"0"}}/>
                     </AspectRatio>
                 </Carousel.Slide>
             )

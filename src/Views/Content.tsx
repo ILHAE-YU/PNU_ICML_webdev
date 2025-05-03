@@ -3,18 +3,18 @@ import About from "../Components/About";
 import NewsSection from '../Components/NewsSection';
 import ResearchSection from '../Components/ResearchSection';
 import RecruitSection from '../Components/RecruitSection';
-import Snow from '../Components/Snow'
+// import Snow from '../Components/Snow'
 
 const Content = () => {
     return (
         <>
-
-            {/* <Snow/> */}
+            {/* <Snow /> */}
             <About />
-            <ResearchSection/>
-            <RecruitSection/>
+            <ResearchSection />
+            <RecruitSection />
             <NewsSection />
         </>
-    )
+    );
 };
+
 export default Content;

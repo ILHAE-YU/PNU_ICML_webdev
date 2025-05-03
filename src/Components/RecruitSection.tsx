@@ -71,7 +71,7 @@ const RecruitSection = () => {
                     <Title order={3}>{newsData.featuredNews.title}</Title>
 
                     <Text size="xl" mb="1%" ml="3%">
-                        ICML(Image Computing and Machine Learning) 연구실은 영상 관련 Algorithm, Computational Geometry, Shape Analysis, Computer Vision 그리고 영상처리를 위한 머신러닝 기법에 관하여 연구를 진행하고 있습니다. 또한, 영상계산 방법 및 기술을 다양한 의료 영상에 적용하는 의료융복합 과제를 수행 중입니다.
+                        IC&ML(Image Computing and Machine Learning) 연구실은 영상 관련 Algorithm, Computational Geometry, Shape Analysis, Computer Vision 그리고 영상처리를 위한 머신러닝 기법에 관하여 연구를 진행하고 있습니다. 또한, 영상계산 방법 및 기술을 다양한 의료 영상에 적용하는 의료융복합 과제를 수행 중입니다.
                     </Text>
                     <Text size="xl" ml="3%">
                         영상 처리 기술 및 머신 러닝 기술을 의료 분야에 접목하며 발생하는 도전적인 과제들을 해결하기 위해서 함께 공부하며 연구해 나갈 창의적이고 열정적인 여러분들을 기다리고 있습니다.

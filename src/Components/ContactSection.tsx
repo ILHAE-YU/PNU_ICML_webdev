@@ -143,7 +143,7 @@ const Map: React.FC<{}> = () => {
             const newMarker = new google.maps.Marker({
                 position: markerPosition,
                 map: map,
-                title: 'PNU ICML',
+                title: 'PNU IC&ML',
             });
             setMarker(newMarker);
         }
