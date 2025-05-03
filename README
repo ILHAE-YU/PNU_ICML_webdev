@@ -34,6 +34,9 @@
 #   ├'publication'
 # 내에 기존 작성된 template 활용하여 작성 후, github push & commit 수행
 
+***주의***
+배포용 파일에서 public이 덮어쓰여서 파일 날아가지 않도록 주의 필요
+
 # ========== To Do List ==========
 
 # - periodic work
@@ -46,8 +49,7 @@
 # 2. publication 검색화면에서 list 정령 순서 날짜순으로 재구성
 # 3. publication 에서 Conference tag도 Link 달기
 # 4. web site theme (전체적인 색감 등)이 hard coding되어 있는데, 관리하기 편하게 수정 필요
-# 5. Mobile View 구현 필요 ( Media Quary / Responsive Design ) - 
-#    폰트 등 다 적용하려면 상당히 귀찮을 듯...
+# 5. Mobile View 구현 필요 ( Media Quary / Responsive Design )
 
 # ========== Tips ==========
 # - Mantine이라는 web/app UI 개발 package 기반이라, 다른 UI package 추가 사용 비추천
